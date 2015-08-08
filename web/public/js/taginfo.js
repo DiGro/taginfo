@@ -885,6 +885,8 @@ jQuery(document).ready(function() {
         return jQuery('input#search').val() != '';
     });
 
+    jQuery('#menu').slicknav({ prependTo: 'body' });
+
     jQuery(window).resize(function() {
         resize_box();
         resize_grid(current_grid);

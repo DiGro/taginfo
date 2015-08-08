@@ -174,7 +174,14 @@ span.customSelect {
 /* ========== */
 
 div#header {
-    padding: 15px 20px 20px 20px;
+    padding: 15px 20px 10px 20px;
+}
+
+@media screen and (max-width: 40em) {
+    div#header {
+        position: absolute;
+        top: 20px;
+    }
 }
 
 div#header_date {
@@ -200,7 +207,6 @@ div#header div#header_forms form {
 select#locale, select#lang {
     font-size: 90%;
     background-color: #ffffff;
-    width: 98px;
     border: none;
 }
 
@@ -222,6 +228,51 @@ input#search, p.search {
 input:focus {
     background-color: #ffffe0 !important;
     outline: none;
+}
+
+/* ========== */
+
+
+ul#menu {
+    margin: 0px 20px 10px 20px;
+    padding: 0;
+    border-bottom: 1px solid #a0a0a0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+ul#menu li {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    display: inline;
+}
+
+ul#menu li:after {
+    content: " \00b7 ";
+}
+
+ul#menu li:last-child:after {
+    content: "";
+}
+
+ul#menu a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #a0a0a0;
+}
+
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 40em) {
+    #menu {
+        display:none;
+    }
+
+    .slicknav_menu {
+        display:block;
+    }
 }
 
 /* ========== */

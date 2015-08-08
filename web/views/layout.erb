@@ -4,9 +4,11 @@
     <title><%= h(title) %></title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="content-language" content="<%= r18n.locale.code %>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="/css/taginfo.css" />
     <link rel="stylesheet" type="text/css" href="/css/smoothness/jquery-ui-1.8.10.custom-minified.css" />
     <link rel="stylesheet" type="text/css" href="/css/flexigrid/flexigrid-minified.css" />
+    <link rel="stylesheet" type="text/css" href="/css/slicknav.min.css" />
     <link rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml" title="<%= TaginfoConfig.get('opensearch.shortname') %>" />
 <% if @css %>
     <style type="text/css"><!--
@@ -41,6 +43,16 @@
 <% end %>
         </div>
     </div>
+<% unless @nosearch %>
+    <ul id="menu">
+        <li><a href="/keys"><%= h(t.osm.keys) %></a></li>
+        <li><a href="/tags"><%= h(t.osm.tags) %></a></li>
+        <li><a href="/relations"><%= h(t.osm.relations) %></a></li>
+        <li><a href="/projects"><%= h(t.taginfo.projects) %></a></li>
+        <li><a href="/reports"><%= h(t.taginfo.reports) %></a></li>
+        <li><a href="/about"><%= h(t.taginfo.about) %></a></li>
+    </ul>
+<% end %>
     <div id="main">
 <%= yield %>
     </div>
@@ -48,12 +60,7 @@
         <div id="footer_left"><a class="extlink" href="//www.openstreetmap.org/"><b>OpenStreetMap</b></a> &middot;
             <a href="//www.openstreetmap.org/copyright">Data &copy; OSM contributors (ODbL)</a></div>
         <div id="footer_right">
-            <a href="/keys"><%= h(t.osm.keys) %></a> &middot;
-            <a href="/tags"><%= h(t.osm.tags) %></a> &middot;
-            <a href="/relations"><%= h(t.osm.relations) %></a> &middot;
-            <a href="/reports"><%= h(t.taginfo.reports) %></a> &middot;
             <a href="/sources"><%= h(t.taginfo.sources) %></a> &middot;
-            <a href="/projects"><%= h(t.taginfo.projects) %></a> &middot;
             <a href="/download"><%= h(t.taginfo.download) %></a> &middot;
             <a href="/taginfo/apidoc">API</a> &middot;
             <a href="/about"><%= h(t.taginfo.about) %></a> &middot;
