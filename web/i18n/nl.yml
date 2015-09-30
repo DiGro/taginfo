@@ -16,9 +16,9 @@ osm:
     relation_types: Type relaties
     relation_member: Lid van relatie
     relation_members: Leden van relatie
-    relation_member_nodes: Member nodes
-    relation_member_ways: Member ways
-    relation_member_relations: Member relations
+    relation_member_nodes: Lid van nodes
+    relation_member_ways: Lid van wegen
+    relation_member_relations: Lid van relaties
     relation_member_role: Rol
     relation_member_roles: Rollen
     object: Object
