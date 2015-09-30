@@ -85,7 +85,7 @@ misc:
 help:
     search:
         title: Zoeken
-        intro: Gebruikhet zoekvak rechtsboven om te zoeken naar keys en waarden van tags.
+        intro: Gebruik het zoekvak rechtsboven om te zoeken naar keys en waarden van tags.
         string: U kunt ook zoeken naar keys en waarden van tags
         substring: Een gedeelte van de key/waarde werkt ook
         complete_tags: U kunt zoeken naar complete tags
@@ -94,7 +94,7 @@ help:
             Voor uw gemak zullen populaire keys en tags worden voorgesteld
             terwijl u typt. Gebruik uw pijltjestoetsen om er een te kiezen en druk op
             <span class="key">Enter</span>.
-            U zult direct naar de pagina voor die key ofr tag springen.
+            U zult direct naar de pagina voor die key of tag springen.
     keyboard:
         title: Sneltoetsen toetsenbord
         site_navigation: Sitenavigatie
@@ -130,30 +130,30 @@ help:
 
 pages:
     not_found:
-        title: Not found
-        intro: Sorry, we could not find the page you were looking for.
+        title: Niet gevonden
+        intro: Sorry, we konden de poagina die u zoekt niet vinden.
     index:
-        popular_keys: Some popular keys
+        popular_keys: Enkele populaire keys
         keys:
-            listkeys: See all keys...
+            listkeys: Alle keys bekijken...
         tags:
-            listtags: See most common tags...
+            listtags: Bekijk de meest voorkomende tags...
         relations:
-            listrelations: See all relation types...
+            listrelations: Bekijik alle typen relatie...
         reports:
-            listreports: See all reports...
+            listreports: Bekijk alle rapporten...
         about:
             intro:
-                <p>OpenStreetMap uses <b>tags</b> of the form <b>key=value</b>
-                to add meaning to geographic objects. Taginfo collects information
-                about these tags from several sources to help you understand what
-                they mean and how they are used.</p>
-            more: More about taginfo...
+                <p>OpenStreetMap gebruikt <b>tags</b> in de vorm <b>key=waarde</b>
+                om betekenis te geven aan geografische objecten. Taginfo verzamelt informatie
+                over deze tags uit verscheidene bronnen om u te helpen begrijpen wat
+                zij betekenen en doe zij worden gebruikt.</p>
+            more: Meer over Taginfo...
         international:
-            see: See other taginfo sites...
+            see: Bekijk andere sites van Taginfo...
     about:
         about_taginfo:
-            title: About taginfo
+            title: Over Taginfo
             text: |
                 <p>OpenStreetMap uses <b>tags</b> to add meaning to geographic objects. There
                 is no fixed list of those tags. New tags can be invented and used as needed.
