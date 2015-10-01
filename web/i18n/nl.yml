@@ -194,62 +194,62 @@ pages:
                 <a class="extlink" href="//www.openstreetmap.org/copyright">dezelfde
                 licentie als de gegevens van OpenStreetMap</a>.</p>
         software:
-            title: The taginfo software
+            title: De software van Taginfo
             text: |
-                <p>The taginfo software was created and is maintained by
+                <p>De software van Taginfo werd gemaakt door en wordt onderhouden door
                 <a class="extlink" href="//wiki.openstreetmap.org/wiki/User:Joto">Jochen Topf</a>.
-                The web design was created by
+                Het webdesign werd gemaakt door
                 <a class="extlink" href="http://www.ctd-studio.co.uk/">Christian Topf</a>.</p>
-                <h3>Translations</h3>
-                <p>We need translators for the taginfo user interface. See the <a
-                href="/taginfo/translations">translations overview</a> for languages that need
-                some work. More information on how to help is on the
-                <a class="extlink" href="//wiki.openstreetmap.org/wiki/Taginfo/I18N">OSM wiki</a>.</p>
+                <h3>Vertalingen</h3>
+                <p>We hebben vertalers nodig voor de gebruikersinterface van Taginfo. Bekijk het <a
+                href="/taginfo/translations">overzicht van vertalingen</a> voor talen die
+                enig werk nodig hebben. Meer informatie over hoe te helpen staat op de
+                <a class="extlink" href="//wiki.openstreetmap.org/wiki/Taginfo/I18N">wiki van OSM</a>.</p>
                 <h3>Code</h3>
-                <p>All the software behind the taginfo sites is Open Source. You can get it on
-                <a class="extlink" href="https://github.com/joto/taginfo/">GitHub</a>. For an overview
-                see the page about the <a class="extlink"
-                href="//wiki.openstreetmap.org/wiki/Taginfo/Architecture">taginfo
-                architecture</a> on the OSM wiki.</p>
-                <h3>Running your own instance</h3>
-                <p>You can run your own
-                <a class="extlink" href="//wiki.openstreetmap.org/wiki/Taginfo/Sites">taginfo site</a>,
-                for instance with data for just your own country. Instructions are
-                <a class="extlink" href="//wiki.openstreetmap.org/wiki/Taginfo/Running">on the OSM
-                wiki</a>.</p>
-                <h3>Bug reports and feature requests</h3>
-                <p>Bug reports and feature requests should be directed to the <a class="extlink"
-                href="https://github.com/joto/taginfo/issues">GitHub issue tracker</a>. Or you can
-                come talk to us on the mailing list.</p>
-                <h3>Contact/Mailing list</h3>
-                <p>Contact us on the
-                <a class="extlink" href="//lists.openstreetmap.org/listinfo/taginfo-dev">taginfo-dev mailing list</a>
-                if you have questions or want to help.</p>
+                <p>Alle software achter de site van Taginfo is Open Source. U kunt die krijgen op
+                <a class="extlink" href="https://github.com/joto/taginfo/">GitHub</a>. Voor een overzicht,
+                bekijk de pagina over de <a class="extlink"
+                href="//wiki.openstreetmap.org/wiki/Taginfo/Architecture"> architectuur
+                van Taginfo</a> op de wiki van OSM.</p>
+                <h3>uw eigen instance uitvoeren</h3>
+                <p>U kunt uw eigen
+                <a class="extlink" href="//wiki.openstreetmap.org/wiki/Taginfo/Sites"> site met Taginfo</a> uitvoeren,
+                met bijvoorbeeld alleen gegevens voor uw eigen land. Instructies staan
+                <a class="extlink" href="//wiki.openstreetmap.org/wiki/Taginfo/Running">op de wiki
+                van OSM</a>.</p>
+                <h3>Rapporteren van problemen en verzoeken tot verbetering</h3>
+                <p>Rapporteren van problemen en verzoeken tot verbetering zouden moeten wordne gericht aan de <a class="extlink"
+                href="https://github.com/joto/taginfo/issues">GitHub issuetracker</a>. Of u kunt
+                met ons praten op de mailinglijst.</p>
+                <h3>Contact/Mailinglijst</h3>
+                <p>Neem contact met ons op via de
+                <a class="extlink" href="//lists.openstreetmap.org/listinfo/taginfo-dev">taginfo-dev mailinglijst</a>
+                indien u vragen heeft of wilt helpen.</p>
     sources:
         intro: |
-            <p>Taginfo collects data about OSM tags from several sources and brings them
-            together for easy browsing and discovery.</p>
-            <p>Note that taginfo only displays this data. If you want to change it, you
-            have to go back to the source.</p>
+            <p>Taginfo verzamelt gegevens over tags van OSM uit verschillende bronnen en brengts die
+            samen om doorheen te bladeren en te onderzoeken.</p>
+            <p>Onthoud dat Taginfo deze gegevens alleen maar weergeeft. Als u die wilt wijzigen, moet
+            u teruggaan naar de bron.</p>
         list:
-            title: List of Sources
-            intro: Here is a list of currently used sources. More sources might be integrated in the future.
+            title: Lijst van bronnen
+            intro: Hier is een lijst van momenteel gebruikte bronnen. In de toekomst zouden meer bronnen kunnen worden geïntegreerd.
         description:
             db: |
-                <p>Statistics about keys, tags, and relation types are generated from the <a class="extlink" href="http://planet.openstreetmap.org/">OSM database</a> (or an extract) as well as the maps that show the geographic distribution of nodes and ways.</p>
+                <p>Statistieken over keys, tags, en typen relatie worden gegenereerd uit de <a class="extlink" href="http://planet.openstreetmap.org/">database van OSM</a> (of een extract) als ook uit de kaarten die de geografische verdeling van nodes en wegen weergeven.</p>
             wiki: |
-                <p>The <a class="extlink" href="//wiki.openstreetmap.org/">OSM Wiki</a> is read and all Key:*, Tag:*, and Relation:* pages (in all the different languages) are analyzed. Descriptions, images, related tags, etc. are extracted from them.</p>
+                <p>De <a class="extlink" href="//wiki.openstreetmap.org/">wiki van OSM</a> wordt gelezen en alle pagina's Key:*, Tag:*, en Relation:* (in alle verschillende talen) worden geanalyseerd. Beschrijvingen, afbeeldingen, gerelateerde tags, etc. worden daaruit uitgenomen.</p>
             languages: |
-                <p>Taginfo gets information about the different languages of the world, their codes, names, etc. from several <a class="extlink" href="http://www.iana.org/">IANA</a> and <a class="extlink" href="http://www.unicode.org/">Unicode</a> registries.</p>
+                <p>Taginfo krijgt informatie over de verschillende talen in de wereld, hun codes, namen, etc. uit verscheidene registraties van <a class="extlink" href="http://www.iana.org/">IANA</a> en <a class="extlink" href="http://www.unicode.org/">Unicode</a>.</p>
             projects: |
-                <p>Projects that use OSM tags in some way, such as editors, maps, routers, etc. See <a href="/projects">the project list</a>.</p>
+                <p>Projecten die op enigerlei wijze tags van OSM gebruiken, zoals bewerkers, kaarten, routers, etc. Bekijk <a href="/projects">de lijst met projecten</a>.</p>
         updates:
-            title: Updates
-            intro: The taginfo data is updated regularly from the sources.
-        data_until: Data until
-        last_update_run: Last update run
-        data_until_explanation: All edits until this time will be in the data, later edits might be.
-        to: to
+            title: Bijwerkingen
+            intro: De gegevens van Taginfo worden regelmatig bijgewerkt vanuit de bronnen.
+        data_until: Gegevens tot
+        last_update_run: Laatste uitgevoerde bijwerking
+        data_until_explanation: Alle bewerkingen tot deze tijd zullen in de gegevens staan, latere bewerkingen zouden er in kunnen staan.
+        to: tot en met
     download:
         intro: |
             <p>Here you can download the databases used by taginfo. All the data is stored
