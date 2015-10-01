@@ -49,7 +49,7 @@ taginfo:
     key_combinations: Combinaties
     comparison: Vergelijking Key/Tag
     overview: Overzicht
-    data_from: Gegevesns vanaf
+    data_from: Gegevens vanaf
     data_from_description: Laatste bijwerking van de database van Taginfo
     instance:
         title: Over deze site van Taginfo
@@ -139,7 +139,7 @@ pages:
         tags:
             listtags: Bekijk de meest voorkomende tags...
         relations:
-            listrelations: Bekijik alle typen relatie...
+            listrelations: Bekijk alle typen relatie...
         reports:
             listreports: Bekijk alle rapporten...
         about:
@@ -155,44 +155,44 @@ pages:
         about_taginfo:
             title: Over Taginfo
             text: |
-                <p>OpenStreetMap uses <b>tags</b> to add meaning to geographic objects. There
-                is no fixed list of those tags. New tags can be invented and used as needed.
-                Everybody can come up with a new tag and add it to new or existing objects.
-                This makes OpenStreetMap enormously flexible, but sometimes also a bit hard
-                to work with.</p>
-                <p>Whether you are contributing to OSM or using the OSM data, there are always
-                questions like: What tags do people use for feature X? What tags can I use
-                for feature Y so that it appears properly on the map? Is the tag Z described
-                on the wiki actually in use and where?</p>
-                <p>Taginfo helps you by showing statistics about which tags are actually in the
-                database, how many people use those tags, where they are used and so on. It
-                also gets information about tags from the wiki and from other places. Taginfo
-                tries to bring together all information about tags to help you understand
-                how they are used and what they mean. See a <a href="/sources">list of sources</a>
-                taginfo uses.</p>
+                <p>OpenStreetMap gebruikt <b>tags</b> om betekenis te geven aan geografische objecten. Er
+                is geen vaste lijst van deze tags. Nieuwe tags kunnen worden uitgevonden en gebruikt indien nodig.
+                Iedereen mag een nieuwe tag maken en die toevoegen aan nieuwe of bestaande objecten.
+                Dat maakt OpenStreetMap enormo flexibel, maar soms ook enigszins moeilijk
+                om mee te werken.</p>
+                <p>Of u nu bijdraagt aan OSM of de gegvens van OSM gebruikt, er zijn altijd
+                vragen als: Welke tags gebruiken mensen voor object X? Welke tags mag ik gebruiken
+                voor object Y zodat het correct op de kaart verschijnt? Is de tag Z die wordt beschreven
+                op de wiki nog in gebruik en waar?</p>
+                <p>Taginfo helpt u bij het weergeven van statistieken over welke tags actueel in de
+                database staan, hoeveel mensen die tags gebruiken, waar zij wordne gebruikt, enzovoort. Het
+                krijgt ook informatie over tags vanaf de wiki en van andere plaatsen. Taginfo
+                probeert alle informatie over tags bij elkaar te brengen om u te helpen begrijpen
+                hoe zij wordne gebruikt en wat zij betekenen. Bekijk een <a href="/sources">lijst met bronnen</a>
+                die Taginfo gebruikt.</p>
         about_site:
-            title: About This Site
+            title: Over deze site
         building_on_taginfo:
-            title: Building on taginfo
+            title: Bouwen op Taginfo
             text: |
-                <p>You can use the data from taginfo in your own projects:</p>
+                <p>U kunt de gegevens van Taginfo in uw eigen projecten gebruiken:</p>
                 <h3>API</h3>
-                <p>Taginfo data can be accessed through a REST API. See the
-                <a href="/taginfo/apidoc">API documentation</a> for the details, some general information is
-                <a class="extlink" href="//wiki.openstreetmap.org/wiki/Taginfo/API">on the OSM wiki</a>.
-                The servers running the taginfo API do not have unlimited resources.
-                Please use the API responsibly. If in doubt contact the maintainers of the
-                site you are using or talk to us on the mailing list.</p>
-                <h3>Download</h3>
-                <p>If you want to play around with the data used by taginfo, you can download the
-                regularly updated Sqlite database files. All the preprocessing is done for you.
-                See the <a href="/download">download page</a> for a list of files. Note that
-                some of these files can get quite large. If you want to download them regularly,
-                contact the maintainers of the site you are using or talk to us on the mailing list.</p>
-                <h3>License</h3>
-                <p>The data available through taginfo is licenced under ODbL, the
-                <a class="extlink" href="//www.openstreetmap.org/copyright">same
-                license as the OpenStreetMap data</a>.</p>
+                <p>Toegang tot gegevens van Taginfo kan wordne verkregen via een REST API. Bekijk de
+                <a href="/taginfo/apidoc">API documentatie</a> voor details, enige algemene informatie staat
+                <a class="extlink" href="//wiki.openstreetmap.org/wiki/Taginfo/API">op de wiki van OSM</a>.
+                De servers die de API van Taginfo uitvoeren hebben geen onbeperkte bronnen.
+                Gebruik de API met beleid. Neem contact op met de beheerders van de
+                die u gebruikt als u twijfelt of praat met ons op de mailinglijst.</p>
+                <h3>Downloaden</h3>
+                <p>Als u met de gegevens die worden gebruikt door Taginfo wilt experimenteren, kunt u de
+                regelmatig bijgewerkte bestanden van de database van Sqlite downloaden. Al het voorbereidende werk is al voor u gedaan.
+                Bekijk de <a href="/download">downloadpagina</a> voor een lijst met bestanden. Onthoud dat
+                sommige van deze bestanden behoorlijk groot kunnen zijn. Indien u ze regelmatig wilt downloaden,
+                neem contact op met de beheerders van de site die u gebruikt of praat met ons op de mailinglijst.</p>
+                <h3>Licentie</h3>
+                <p>De gegevens die beschikbaar zijn via Taginfo vallen onder de licentie ODbL, 
+                <a class="extlink" href="//www.openstreetmap.org/copyright">dezelfde
+                licentie als de gegevens van OpenStreetMap</a>.</p>
         software:
             title: The taginfo software
             text: |
